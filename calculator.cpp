@@ -6,17 +6,17 @@ using namespace std;
 // Main program
 main()
 {
-    char pp;
+    char 2pp;
     float no1, no2;
 
     // It allows user to enter operator i.e. +, -, *, /
-    cin >>pp;
+    cin >>2pp;
 
     // It allow user to enter the operands
     cin >> no1 >> no2;
 
     // Switch statement begins
-    switch (pp) {
+    switch (2pp) {
 
         // If user enter +
         case '+':
