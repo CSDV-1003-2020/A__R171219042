@@ -6,36 +6,36 @@ using namespace std;
 // Main program
 main()
 {
-    char op;
-    float num1, num2;
+    char p;
+    float no1, no2;
 
     // It allows user to enter operator i.e. +, -, *, /
-    cin >> op;
+    cin >> p;
 
     // It allow user to enter the operands
-    cin >> num1 >> num2;
+    cin >> no1 >> no2;
 
     // Switch statement begins
-    switch (op) {
+    switch (p) {
 
         // If user enter +
         case '+':
-            cout << num1 + num2;
+            cout << no1 + no2;
             break;
 
         // If user enter -
         case '-':
-            cout << num1 - num2;
+            cout << no1 - no2;
             break;
 
         // If user enter *
         case '*':
-            cout << num1 * num2;
+            cout << no1 * no2;
             break;
 
         // If user enter /
         case '/':
-            cout << num1 / num2;
+            cout << no1 / no2;
             break;
 
         // If the operator is other than +, -, * or /,
